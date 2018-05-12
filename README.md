@@ -1,3 +1,3 @@
-# Responsive-Portfolio
+My Personal Portfolio
 
-https://amlilly.github.io/Responsive-Portfolio/portfolio.html
+https://amlilly.github.io/
