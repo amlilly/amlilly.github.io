@@ -1,43 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Contact | Andrew Lilly</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>
-        Andrew Lilly
-    </h1>
-    <p>
-        <a href="html_images.asp">About</a>
-        <a href="html_images.asp">Portfolio</a>
-        <a href="html_images.asp">Contact</a>
-    </p>
 
+  <header id="masthead">
     <div class="container">
-            <h1>
-                Contact
-            </h1>
-    
-            <br>
-    
-            <div class="form_class">
-                <form action="/action_page.php">
-                    Name<br>
-                    <input type="text" name="name" value="Full Name Here">
-                    <br>
-                    Email<br>
-                    <input type="text" name="email" value="username@wherever.com">
-                    <br>
-                    Message<br>
-                    <input type="text" name="message" value="Please leave me a message">
-                    <br><br>
-                    <input type="submit" value="Submit">
-                </form> 
-            </div>
+      <a href="index.html" id="logo">Andrew Lilly</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/amlilly"><img src="assets/images/github-128.png" class="social" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/amlilly/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn"></a>
+        <a href="https://stackoverflow.com/users/9546709/andy-lilly"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow"></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
+
 </html>
